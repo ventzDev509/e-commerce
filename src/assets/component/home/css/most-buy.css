@@ -1,0 +1,26 @@
+#most-buy .popular-item{
+    margin-right: 40px;
+}
+#most-buy .item_buy {
+  max-width: 130px !important;
+}
+#most-buy .item_buy h4{
+    font-size: 17px;
+    font-weight: 500;
+}
+#most-buy .item_buy .flex{
+    display: flex;
+    justify-content: space-between;
+}
+#most-buy .item_buy .left_price{
+    font-weight: 700;
+    font-size: 15px;
+}
+#most-buy .item_buy .right_star{
+    font-size: 13px;
+}
+#most-buy .item_buy .star{
+width: 15px;
+height: 15px;
+transform: translateY(-3px);
+}

@@ -1,0 +1,25 @@
+.like-button {
+    position: absolute;
+    background-color: var(--main-light);
+    padding: 2px;
+    width: 34px;
+    height: 34px;
+    right: 30px;
+    top: 10px;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.like-button .like_heart {
+    height: 20px;
+    width: 20px;
+    transition: .3s ease-in;
+    color: rgb(26, 26, 26);
+}
+
+.like-button .like_heart:hover{
+    transition: .3s ease-in;
+    transform: scale(1.090);
+}

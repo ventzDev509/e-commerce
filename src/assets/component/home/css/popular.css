@@ -1,0 +1,13 @@
+#popular{
+    margin-top: 20px;
+}
+.popular-img {
+    height: 130px;
+    width: 140px;
+    border-radius: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: .7rem;
+    background-color: var(--green);
+}

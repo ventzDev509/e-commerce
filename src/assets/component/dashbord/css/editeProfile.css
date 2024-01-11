@@ -1,0 +1,21 @@
+
+
+#wrapper .fl{
+    width: 96%;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#wrapper .fl .col input{
+width: 100%;
+}
+
+@media only screen and (max-width:990px) {
+    #wrapper .fl{
+        width: 100%;
+        padding: 0;
+        display: block;
+        flex-wrap: wrap;
+    }
+}
